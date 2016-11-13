@@ -23,6 +23,11 @@
         * Fields: user_id movie_id rating timestamp
         ![All](./assets/pics/mapreduce-example-6.png)
 
+* Combiner: when mapper is done producing key-value pairs, do some reduction work in mapper, like aggregating data before sending to reducer to save some network bandwidth.
+    - ex: ./word_frequency_with_combiner.py
+
+* Attach config/data file with each MapReduce job across distributed nodes: ./most_popular_movie_with_name_lookup.py
+
 * How MapReduce scales / distributed computing:       
     ![Distributed](./assets/pics/mapreduce-distributed.png)
 
