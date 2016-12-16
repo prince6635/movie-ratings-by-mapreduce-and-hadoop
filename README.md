@@ -31,6 +31,18 @@
 * How MapReduce scales / distributed computing:       
     ![Distributed](./assets/pics/mapreduce-distributed.png)
 
+## Hadoop (Run MapReduce job in a distributed way)
+![Hadoop](./assets/pics/hadoop.png)
+
+* HDFS (Hadoop Distributed File System): is used by Hadoop for distributing data and information that Hadoop accesses, YARN manages how Hadoop jobs distributed across the cluster.
+![HDFS](./assets/pics/hadoop-HDFS.png)
+
+* Apache YARN (Hadoop uses to figure out what mapper/reducer to run where, how to connect them all together, keep tracking what's running, etc.)
+![YARN](./assets/pics/hadoop-YARN.png)
+
+* AWS Elastic MapReduce
+![EMR](./assets/pics/hadoop-AWS_EMR.png)
+
 ## Tools
 
 * Python tool for big data: [Enthought canopy](https://www.enthought.com/)

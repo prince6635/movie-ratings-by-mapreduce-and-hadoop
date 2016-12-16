@@ -10,7 +10,7 @@
 # !python ./movie_recommendation_by_similarity.py --items=./assets/data/ml-100k/u.item ./assets/data/ml-100k/u.data > ./target/sims.txt
 #
 # to run on a single EMR node:
-# !python ./movie_recommendation_by_similarity.py -r emr --items=./assets/data/ml-100k/u.item ./assets/data/ml-100k/u.data
+# !python ./movie_recommendation_by_similarity.py -r emr --items=./assets/data/ml-100k/u.item ./assets/data/ml-100k/u.data > ./target/sims.txt
 #
 # to run on 4 EMR nodes:
 # !python ./movie_recommendation_by_similarity.py -r emr --num-ec2-instances=4 --items=./assets/data/ml-100k/u.item ./assets/data/ml-100k/u.data
